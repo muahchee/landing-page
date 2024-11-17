@@ -105,6 +105,7 @@ h1{
 
 .top img{
     flex:1;
+    max-width: 400px;
 }
 
 .second{
@@ -135,6 +136,7 @@ h2{
 .character-item img{
     border: 3px solid #1f2937;
     border-radius: 10px;
+    max-width: 130px;
 }
 
 .third{
