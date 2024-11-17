@@ -38,6 +38,7 @@ header{
     width:100%;
     background-color: #36915c;
     padding: 0 200px;
+    flex-wrap: wrap;
 }
 
 .logo{
@@ -81,6 +82,7 @@ a{
     align-items: center;
     padding:40px 200px;
     gap: 24px;
+    flex-wrap: wrap;
 }
 
 .top{
@@ -91,10 +93,18 @@ a{
     font-size:18px;
 }
 
+.intro{
+    flex:1;
+}
+
 h1{
     font-size: 42px;
     font-weight: 900;
     color: #e9d739;
+}
+
+.top img{
+    flex:1;
 }
 
 .second{
