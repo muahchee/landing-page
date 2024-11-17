@@ -10,7 +10,7 @@ body{
     align-items: center;
     padding:0;
     margin:0;
-
+    color:#1f2937;
 }
 
 header{
@@ -71,6 +71,11 @@ h1{
     flex-direction: column;
 }
 
+h2{
+    font-size:36px;
+    font-weight: 900;
+}
+
 .character-container{
     display: flex;
     justify-content: center;
@@ -94,3 +99,18 @@ h1{
 .third{
     background-color: #e5e7eb;
 }
+
+.quote{
+    font-weight: 100;
+    font-size:36px;
+    font-style: italic;
+
+}
+
+.quote-name{
+    font-size:1rem;
+    font-weight:bold;
+    font-style: normal;
+    text-align: right;
+}
+
